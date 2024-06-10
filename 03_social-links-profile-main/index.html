@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+			rel="stylesheet"
+		/>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
+		<title>Frontend Mentor | Social links profile</title>
+	</head>
+	<body>
+		<main class="contenedor">
+			<div class="card">
+				<img class="card__imagen" src="assets/images/avatar-jessica.jpeg" alt="Icono Avatar" />
+
+				<div class="card__perfil">
+					<h1 class="card__nombre">Jessica Randall</h1>
+					<p class="card__ubicacion">London, United Kingdom</p>
+					<p class="card__descripcion">"Front-end developer and avid reader."</p>
+				</div>
+
+				<div class="card__enlaces">
+					<a href="https://github.com/MizAndhre" class="card__enlace" target="_blank"
+						>GitHub</a
+					>
+					<a
+						href="https://www.frontendmentor.io/challenges"
+						class="card__enlace"
+						target="_blank"
+						>Frontend Mentor</a
+					>
+					<a href="https://co.linkedin.com" class="card__enlace" target="_blank">LinkedIn</a>
+					<a href="https://x.com" class="card__enlace" target="_blank">Twitter / X</a>
+					<a href="https://www.instagram.com/" class="card__enlace" target="_blank"
+						>Instagram</a
+					>
+				</div>
+			</div>
+		</main>
+
+		<!--   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+	</body>
 </html>
